@@ -1,0 +1,777 @@
+body {
+    background: linear-gradient(rgba(5, 7, 12, 0.15), rgba(5, 7, 12, 0.70)),
+        url(./IMG/wallpapers/fondo2.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: fixed;
+    background-size: cover;
+
+}
+
+/*CONTROL DEL LOGO*/
+
+.logo {
+    margin-left: 0px;
+
+}
+/*FIN CONTROL DEL LOGO*/
+
+
+
+/* AREA DEL MENU */
+
+.menu {
+    border: 1px solid red;
+    
+    margin-top: 80px;
+    background-color: rgba(8, 8, 8, 0.836);
+    box-shadow: 0px 0px 50px rgba(163, 4, 4, 0.849);
+}
+
+a {
+    color: white;
+    text-shadow: 1px 2px 5px black;
+    text-decoration: none;
+
+}
+
+.menu li {
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    padding: 10px;
+    margin-left: 140px;
+    font-size: 30px;
+    font-weight: bold;
+
+
+}
+
+ul {
+
+    text-decoration: none;
+}
+
+/* FIN AREA DEL MENU */
+
+
+
+
+
+
+/*AREA DE SERVICIOS*/
+
+#servicios {
+    border: 1px solid red;
+    width: 1000px;
+    margin-left: 200px;
+    margin-top: 90px;
+    overflow: hidden;
+    text-align: center;
+    box-shadow: 0px 0px 50px rgba(228, 227, 227, 0.89);
+    
+
+}
+
+.titulos {
+    color: rgba(252, 246, 246, 0.959);
+    font-size: 30px;
+
+   
+    border: 1px solid white;
+    text-align: center;
+    border-color: greenyellow;
+    box-shadow:0px 0px 40px rgba(199, 52, 52, 0.89) ;
+   
+
+    text-shadow: 1px 2px 3px rgba(221, 28, 28, 0.822);
+    font-weight: bold;
+}
+
+
+.one {
+    display: flexbox;
+    border: 1px solid red;
+    width: 300px;
+    height: 200px;
+    margin: 30px;
+    display: inline-block;
+    padding: 60px;
+    background-color: rgba(3, 3, 3, 0.774);
+    box-shadow: 0px 0px 10px rgba(245, 0, 0, 0.575);
+}
+
+/*FIN AREA DE SERVICIOS*/
+
+
+
+
+/*PARRAFOS*/
+
+.todos {
+    color: white;
+    cursor: pointer;
+}
+
+/*FIN PARRAFOS*/
+
+
+
+/* SPANES DE PARAFFOS DE PRECIOS */
+
+.verde {
+    color: greenyellow;
+}
+
+
+/*FIN SPANES DE PARAFFOS DE PRECIOS */
+
+
+
+
+/*FOOTER*/
+footer {
+    border: 1px solid red;
+    margin-top: 50px;
+    text-align: center;
+    background-color: rgba(8, 8, 8, 0.836);
+    width: 50%;
+    height: 50px;
+    margin: auto;
+}
+
+.foot {
+    color: white;
+}
+
+/*FIN FOOTER*/
+
+
+
+
+/*HOVERS*/
+a :hover {
+    color: white;
+    text-shadow: 1px 2px 5px rgba(196, 16, 16, 0.952);
+    text-decoration: underline;
+
+}
+
+.todos :hover {
+    text-shadow: 1px 2px 5px rgba(196, 16, 16, 0.952);
+}
+
+.one :hover {
+    cursor: pointer;
+
+}
+
+
+
+/* FIN HOVERS*/
+
+
+
+/*INICIO RESPONSIVE*/
+
+
+
+    @media (max-width: 1282px) {
+        .menu li {
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0px;
+            margin-left: 125px;
+            font-size: 25px;
+            font-weight: bold;
+        
+        
+        }
+
+        #servicios {
+            border: 1px solid red;
+            width: 900px;
+            margin-left: 140px;
+            margin-top: 90px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0px 0px 50px rgba(228, 227, 227, 0.89);
+            
+        
+        }
+
+
+        footer {
+            border: 1px solid red;
+            margin-top: 30px;
+            text-align: center;
+            background-color: rgba(8, 8, 8, 0.836);
+            margin-right: 362px;
+        }
+
+        .foot {
+            color: white;
+            text-align: center;
+            
+            width: 80px;
+            margin: auto ;
+            margin-top: 15px;
+            
+        }
+        
+
+    /*RESPONSIVE 2 */
+
+    @media (max-width: 1054px) {
+        .menu li {
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0px;
+            margin-left: 110px;
+            font-size: 20px;
+            font-weight: bold;
+        
+        
+        }
+
+        #servicios {
+            border: 1px solid red;
+            width: 750px;
+            margin-left: 140px;
+            margin-top: 90px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0px 0px 50px rgba(228, 227, 227, 0.89);
+            
+        
+        }
+
+
+        footer {
+            border: 1px solid red;
+            margin-top: 30px;
+            text-align: center;
+            background-color: rgba(8, 8, 8, 0.836);
+            margin-right: 256px;
+        }
+
+        .foot {
+            color: white;
+            text-align: center;
+            
+            width: 80px;
+            margin: auto ;
+            margin-top: 15px;
+            
+        }
+        
+        
+
+
+        /*RESPONSIVE 3 */
+        @media (max-width: 898px) {
+
+            .menu li {
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                padding: 0px;
+                margin-left: 100px;
+                font-size: 15px;
+                font-weight: bold;
+            
+            
+            }
+    
+            #servicios {
+                border: 1px solid red;
+                width: 500px;
+                margin-left: 180px;
+                margin-top: 90px;
+                overflow: hidden;
+                text-align: center;
+                box-shadow: 0px 0px 50px rgba(228, 227, 227, 0.89);
+                
+            
+            }
+    
+    
+            footer {
+                border: 1px solid red;
+                margin-top: 30px;
+                text-align: center;
+                background-color: rgba(8, 8, 8, 0.836);
+                margin-right: 220px;
+            }
+    
+            .foot {
+                color: white;
+                text-align: center;
+                
+                width: 80px;
+                margin: auto ;
+                margin-top: 15px;
+                
+            }
+
+            /*RESPONSIVE 4 */
+
+        @media (max-width: 734px) {
+
+        
+
+
+            .menu li {
+                text-align: center;
+                text-decoration: none;
+                display: inline-block;
+                padding: 0px;
+                margin-left: 70px;
+                font-size: 15px;
+                font-weight: bold;
+            
+            
+            }
+    
+            #servicios {
+                border: 1px solid red;
+                width: 500px;
+                margin-left: 120px;
+                margin-top: 90px;
+                overflow: hidden;
+                text-align: center;
+                box-shadow: 0px 0px 50px rgba(228, 227, 227, 0.89);
+                
+            
+            }
+    
+    
+            footer {
+                border: 1px solid red;
+                margin-top: 30px;
+                text-align: center;
+                background-color: rgba(8, 8, 8, 0.836);
+                margin-right: 157px;
+            }
+    
+            .foot {
+                color: white;
+                text-align: center;
+                
+                width: 80px;
+                margin: auto ;
+                margin-top: 15px;
+                
+            }
+            
+
+
+            
+     /*RESPONSIVE 5 */
+
+     @media (max-width: 650px) {
+
+        
+
+
+        .menu li {
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0px;
+            margin-left: 80px;
+            font-size: 10px;
+            
+            font-weight: bold;
+        
+        
+        }
+
+        #servicios {
+            border: 1px solid red;
+            width: 500px;
+            margin-left: 67px;
+            margin-top: 90px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0px 0px 50px rgba(228, 227, 227, 0.89);
+            
+        
+        }
+
+
+        footer {
+            border: 1px solid red;
+            margin-top: 30px;
+            text-align: center;
+            background-color: rgba(8, 8, 8, 0.836);
+            margin-right: 157px;
+        }
+
+        .foot {
+            color: white;
+            text-align: center;
+            
+            width: 80px;
+            margin: auto ;
+            margin-top: 15px;
+            
+        }
+
+        /*RESPONSIVE 6 */
+
+     @media (max-width: 582px) {
+
+        
+
+
+        .menu li {
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0px;
+            margin-left: 60px;
+            font-size: 10px;
+            
+            font-weight: bold;
+        
+        
+        }
+
+        #servicios {
+            border: 1px solid red;
+            width: 500px;
+            margin-left: 30px;
+            margin-top: 90px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0px 0px 50px rgba(228, 227, 227, 0.89);
+            
+        
+        }
+
+
+        footer {
+            border: 1px solid red;
+            margin-top: 30px;
+            text-align: center;
+            background-color: rgba(8, 8, 8, 0.836);
+            margin-right: 132px;
+        }
+
+        .foot {
+            color: white;
+            text-align: center;
+            
+            width: 80px;
+            margin: auto ;
+            margin-top: 15px;
+            
+        }
+
+
+        /*RESPONSIVE 7 */
+
+     @media (max-width: 542px) {
+
+        
+
+
+        .menu li {
+            text-align: center;
+            text-decoration: none;
+            display: inline-block;
+            padding: 0px;
+            margin-left: 50px;
+            font-size: 10px;
+            
+            font-weight: bold;
+        
+        
+        }
+
+        #servicios {
+            border: none;
+            width: 350px;
+            margin-left: 89px;
+            margin-top: 90px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0px 0px 50px rgba(228, 227, 227, 0.89);
+            
+        
+        }
+
+        .titulos {
+            
+            font-size: 15px;
+        
+           
+        
+        }
+        
+        
+        .one {
+            display: flexbox;
+            border: 1px solid red;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+            
+            
+            display: inline-block;
+            padding: 60px;
+            background-color: rgba(3, 3, 3, 0.774);
+            box-shadow: 0px 0px 10px rgba(245, 0, 0, 0.575);
+            font-size: 10px;
+        }
+
+
+
+
+
+
+
+
+
+
+        footer {
+            border: 1px solid red;
+            margin-top: 30px;
+            text-align: center;
+            background-color: rgba(8, 8, 8, 0.836);
+            margin-right: 127px;
+               }
+
+        .foot {
+            color: white;
+            text-align: center;
+            
+            width: 80px;
+            margin: auto ;
+            margin-top: 15px;
+            
+        }
+
+
+
+            /*RESPONSIVE 8 */
+
+     @media (max-width: 462px) {
+
+        
+
+
+        .menu li {
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            padding: 0px;
+            margin-left: 0px;
+            font-size: 15px;
+            
+            font-weight: bold;
+        
+        
+        }
+
+        #servicios {
+            border: none;
+            width: 350px;
+            margin-left: 66px;
+            margin-top: 90px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0px 0px 50px rgba(228, 227, 227, 0.89);
+            
+        
+        }
+
+        .titulos {
+            
+            font-size: 15px;
+        
+           
+        
+        }
+        
+        
+        .one {
+            display: flexbox;
+            border: 1px solid red;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+            
+            
+            display: inline-block;
+            padding: 60px;
+            background-color: rgba(3, 3, 3, 0.774);
+            box-shadow: 0px 0px 10px rgba(245, 0, 0, 0.575);
+            font-size: 10px;
+        }
+
+
+
+
+
+
+
+
+
+
+        footer {
+            border: 1px solid red;
+            margin-top: 30px;
+            text-align: center;
+            background-color: rgba(8, 8, 8, 0.836);
+            margin-right: 91px;
+               }
+
+        .foot {
+            color: white;
+            text-align: center;
+            
+            width: 80px;
+            margin: auto ;
+            margin-top: 15px;
+            
+        }
+
+
+        
+            /*RESPONSIVE 9 */
+
+     @media (max-width: 356px) {
+
+
+        
+        .menu  {
+           border: none;
+           margin-right: 35px;
+          box-shadow: none;
+          background-color: transparent;
+            
+           width: 100;
+        
+        
+        }
+
+        
+
+
+        .menu li {
+            text-align: center;
+            text-decoration: none;
+            display: block;
+            padding: 0px;
+            margin-left: 5px;
+            font-size: 15px;
+            
+            font-weight: bold;
+        
+        
+        }
+
+        #servicios {
+            border: none;
+            width: 350px;
+            margin-left: -6px;
+            margin-top: 90px;
+            overflow: hidden;
+            text-align: center;
+            box-shadow: 0px 0px 50px rgba(228, 227, 227, 0.89);
+            
+        
+        }
+
+        .titulos {
+            
+            font-size: 15px;
+        
+           
+        
+        }
+        
+        
+        .one {
+            display: flexbox;
+            border: 1px solid red;
+            width: 200px;
+            height: 100px;
+            margin: 5px;
+            
+            
+            display: inline-block;
+            padding: 60px;
+            background-color: rgba(3, 3, 3, 0.774);
+            box-shadow: 0px 0px 10px rgba(245, 0, 0, 0.575);
+            font-size: 10px;
+        }
+
+
+
+
+
+
+
+
+
+
+        footer {
+            border: 1px solid red;
+            margin-top: 30px;
+            text-align: center;
+            background-color: rgba(8, 8, 8, 0.836);
+            margin-right: 76px;
+               }
+
+        .foot {
+            color: white;
+            text-align: center;
+            
+            width: 80px;
+            margin: auto ;
+            margin-top: 15px;
+            
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+        }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/*FIN RESPONSIVE*/
